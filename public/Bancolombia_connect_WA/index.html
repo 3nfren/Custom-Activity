@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+        <meta http-equiv="Access-Control-Allow-Headers" content="X-Requested-With" />
+        <title>Indra Connect</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//www.fuelcdn.com/fuelux/3.13.0/css/fuelux.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script
+        data-main="js/main.js"
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    </head>
+    <body class="fuelux">
+        <div class="wizard" data-initialize="wizard" id="myWizard">
+            <div class="step-content">
+                <h3>Bancolombia</h3>
+                <p>Usar %%variable%% para las variables dinamicas</p>
+                <table>
+                    <tr>
+                        <td><label for="contenido">Cuerpo del Mensaje:</label></td>
+                        <td><textarea name="contenido" id="contenido" maxlength="300" placeholder="Mensaje de texto" rows="6" cols="50" style="resize: none;"></textarea></td>
+                    </tr>
+
+                    <!--<tr>
+                        <td><label for="contenido">Variable Dinámica 1:</label></td>
+                        <td><input id="template_field1" name="template_field1" type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="contenido">Variable Dinámica 2:</label></td>
+                        <td><input id="template_field2" name="template_field2" type="text" ></td>
+                    </tr>-->
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

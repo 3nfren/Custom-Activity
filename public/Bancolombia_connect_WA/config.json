@@ -1,0 +1,58 @@
+{
+	"workflowApiVersion": "1.1",
+	"metaData": {
+		"icon": "../images/Bancolombia_PNG.png",
+		"category": "message"
+	},
+	"type": "REST",
+	"lang": {
+		"en-US": {
+			"name": "Bancolombia",
+			"description": "Conexión con Bancolombia para el envío de Whatsapp"
+		}
+	},
+	"arguments": {
+		"execute": {
+			"inArguments": [],
+			"outArguments": [],
+			"url": "https://demo-ca-wha.nateevo.com/Bancolombia_connect_WA/execute",
+			"verb": "POST",
+			"body": "",
+			"header": "",
+			"format": "json",
+			"useJwt": true,
+			"concurrentRequests" : 5,
+			"timeout": 90000			
+		}
+	},
+	"wizardSteps": [
+		{
+			"label": "Step 1",
+			"key": "step1"
+		}
+	],
+	"configurationArguments": {
+		"save": {
+			"url": "https://demo-ca-wha.nateevo.com/Bancolombia_connect_WA/save",
+			"verb": "POST",
+			"useJwt": true
+		},
+		"publish": {
+			"url": "https://demo-ca-wha.nateevo.com/Bancolombia_connect_WA/publish",
+			"verb": "POST",
+			"useJwt": true
+		},
+		"validate": {
+			"url": "https://demo-ca-wha.nateevo.com/Bancolombia_connect_WA/validate",
+			"verb": "POST",
+			"useJwt": true
+		}
+	},
+	"userInterfaces": {
+		"configModal": {
+			"height": 400,
+			"width": 1000,
+			"fullscreen": true
+		}
+	}
+}

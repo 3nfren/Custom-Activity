@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\public\\images",
+    "\\public\\novum_connect_push",
+    "\\public\\novum_connect_push\\js",
+    "\\public\\novum_connect_sms",
+    "\\public\\novum_connect_sms\\js",
+    "\\routes",
+    "\\routes\\novum_connect_push",
+    "\\views"
+  ],
+  "PreviewInSolutionExplorer": false
+}

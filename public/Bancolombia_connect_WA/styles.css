@@ -1,0 +1,20 @@
+body {
+    padding: 20px;
+    margin: 0;
+}
+
+.charCounter{
+    opacity: 0.4;
+}
+
+.validation{
+    opacity: 0.4;
+}
+
+.invalidInput{
+    color: red;
+}
+
+td {
+    padding-bottom: 5%;
+}

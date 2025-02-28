@@ -1,0 +1,35 @@
+{
+  "name": "custom-activity",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^7.0.0",
+    "express": "~4.16.0",
+    "fs": "0.0.1-security",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash.merge": "^4.6.1",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.11",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "sfmc-fuelsdk-node": "^2.4.0",
+    "uuid": "^3.3.2"
+  },
+  "description": "Novum Connection ============",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
